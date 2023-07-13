@@ -1,0 +1,36 @@
+body{
+    background-color: peachpuff;
+}
+.memegen{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.memegen img{
+    height: 430px;
+    object-fit: cover;
+}
+
+.meme{
+    padding: 2rem 4rem;
+    font-size: 28px;
+    border: none;
+    border-left: 3px solid brown;
+    border-right: 3px solid brown; 
+    margin: 5rem 0;
+    font-size: 36px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.meme:hover{
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    padding: 4rem 6rem;
+    font-size: 40px;
+}
+.memeTitle{
+    font-size: 45px;
+}
+.memeAut{
+    padding: 2rem;
+}
